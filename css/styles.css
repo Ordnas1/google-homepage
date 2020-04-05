@@ -1,0 +1,40 @@
+/* global declarations */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* main content styles */
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+}
+
+.btn-container {
+    margin-top: 1.2rem;
+}
+
+.btn {
+    -webkit-appearance: none;
+}
