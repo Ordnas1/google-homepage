@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62433110b3.js" crossorigin="anonymous"></script>
     <title>Google Homepage</title>
 </head>
 <body>
@@ -22,16 +23,18 @@
                 <li><a href="">Images</a></li>
                 <li><a href=""><i class="material-icons">apps</i></a></li>
             </ul>
-            <button class="btn">Iniciar sesión</button>
+            <button class="btn btn-login">Iniciar sesión</button>
         </div>
     </nav>
     <main class="content">
         <img src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
         <form id="content-form" action="">
-            <input id="searchbar" type="search">
+            <div class="searchbar-container">
+                <i class="fas fa-search"></i><input id="searchbar" type="search"><i class="fas fa-microphone"></i>
+            </div>
             <div class="btn-container">
-                <button id="search" class="btn">Busqueda Con Google</button>
-                <button id="feeling_lucky" class="btn">Me siento con suerte</button>
+                <button id="search" class="btn btn-main">Busqueda Con Google</button>
+                <button id="feeling_lucky" class="btn btn-main">Me siento con suerte</button>
             </div>
         </form>
     </main>
