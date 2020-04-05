@@ -43,6 +43,7 @@ li {
     align-content: center;
     justify-content: center;
     height: 100%;
+    align-items: center;
 }
 
 a {
@@ -55,6 +56,13 @@ a:hover {
     color: gray;
 }
 
+.btn-login {
+    border : none;
+    background-color: dodgerblue;
+    color: white;
+    height: 70%;
+    font-weight: 800;
+}
 
 
 /* main content styles */
