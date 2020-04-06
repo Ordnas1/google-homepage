@@ -1,0 +1,125 @@
+/* globales y resets */
+
+html {
+    font-size: 10px
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* navbar stuff */
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem 0;
+    border-bottom: 0.5px solid gainsboro;
+}
+
+/* contenedor izquiedo */
+.navbar-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start;
+}
+
+#logo {
+    width: 92px;
+    height: auto;
+    margin: 1rem 2rem 0 0;
+}
+
+/* barra de busqueda */
+.searchbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0.2rem;
+    width: 98%;
+    border: 0.5px solid gainsboro;
+    border-radius: 20px;
+    margin: 0.3rem 0;
+}
+
+.searchbar-container:hover {
+    box-shadow: 0px 0px 4px darkgray;
+}
+
+.fa-search {
+    padding-left: 1rem;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+    width: 83%;
+    border: none;
+}
+
+input[type=search]:active {
+    border: none;
+}
+
+.fa-microphone {
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
+
+/* barra de elementos */
+
+.element-ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.element-li {
+    margin: 0 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.element-a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+.icon-li {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.current {
+    color: dodgerblue
+}
+
+.current-li {
+    border-bottom: 1.7px solid dodgerblue;
+
+}
+
+/* lado derecho */
+
+.btn-login {
+    -webkit-appearance: none;
+    border : none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px ;
+    font-weight: 800;
+    border-radius: 2px;
+    margin-right: 3rem;
+}
+
+#rightside {
+    margin: 0;
+}
