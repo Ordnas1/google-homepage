@@ -125,3 +125,65 @@ input[type=search]:active {
 #rightside {
     margin: 0;
 }
+
+/*resultados de busqueda */
+
+main {
+    margin-left: 14.7rem;
+}
+
+#results-number {
+    font-size: 1.4rem;
+    color:gray;
+}
+
+/* Grid para los resultados */
+
+.search-result {
+    width: 63rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "result-link translate"
+    "website-title website-title"
+    "website-summary website-summary";
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    margin-top: 1rem ;
+    margin-bottom: 3rem;
+}
+
+.result-link {
+    grid-area: result-link;
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    font-size: 1.3rem;
+}
+
+.translate {
+    grid-area: translate;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.3rem;
+}
+
+.website-title {
+    grid-area: website-title;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+.website-title:hover {
+    text-decoration: underline;
+}
+
+
+.website-summary {
+    grid-area: website-summary;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin:0;
+    color: rgb(61, 61, 61);
+}
